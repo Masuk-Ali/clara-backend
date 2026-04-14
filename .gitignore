@@ -1,5 +1,20 @@
+<<<<<<< HEAD
 node_modules
 # Keep environment variables out of version control
 .env
 
 /lib/generated/prisma
+=======
+# Dependencies
+node_modules
+
+# Environment variables
+.env
+
+# Logs
+logs
+
+# OS-specific
+.DS_Store
+Thumbs.db
+>>>>>>> e619c4c17e427168601c921d78c729a5fc443138
