@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS: Allow only frontend origin
 app.use(cors({
-    origin: ["http://localhost:5173"], // Change in prod
+    origin: ["http://localhost:5173", "https://clara-frontend-nine.vercel.app"], // Change in prod
 }));
 
 // ✅ Rate limiting middleware
