@@ -1,44 +1,26 @@
 {
-<<<<<<< HEAD
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon server.js"
-=======
   "name": "clara-backend",
   "version": "1.0.0",
+  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> e619c4c17e427168601c921d78c729a5fc443138
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
-  "type": "commonjs",
-  "dependencies": {
-  "@prisma/client": "6.19.2",
-  "axios": "^1.13.6",
-  "cors": "^2.8.6",
-  "dotenv": "^17.3.1",
-  "express": "^4.18.2"
-},
-"devDependencies": {
-  "nodemon": "^3.1.14",
-  "prisma": "6.19.2"
-}
-=======
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.1.0",
     "express": "^5.1.0",
     "express-rate-limit": "^7.5.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
->>>>>>> e619c4c17e427168601c921d78c729a5fc443138
 }
